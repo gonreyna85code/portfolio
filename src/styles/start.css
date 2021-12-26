@@ -1,0 +1,11 @@
+.start {
+    background-image: url("./landing.jpg");
+    background-position: center center;
+  
+    background-size: cover;
+ 
+    height: 100vh;
+    overflow: hidden;
+    scroll-behavior: hidden;
+   
+  }
