@@ -8,12 +8,14 @@ function App() {
   
   return (
     <BrowserRouter>
+    <div>
       <div className="App">
         <Routes>
           <Route exact path = '/' element = {<Start/>}/>
           <Route exact path = '/profile' element = {<Profile/>}/>
         </Routes>
       </div>
+    </div>
     </BrowserRouter>    
   );
 }
