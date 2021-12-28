@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import img from "./img.png";
 import Popup from "reactjs-popup";
+import whats from "../styles/whats.png";
+import linked from "../styles/linked.png";
+import git from "../styles/git.png";
+
 
 const start = () => {
   return (
@@ -19,27 +23,17 @@ const start = () => {
                       typewriter
                         .changeDelay(20)
                         .pauseFor(2000)
-                        .typeString(
-                          "> GONZALO REYNA "
-                        )
+                        .typeString("> GONZALO REYNA ")
                         .pauseFor(1000)
                         .changeDelay(200)
-                        .typeString(
-                          " ----- "
-                        )
+                        .typeString(" ----- ")
                         .pauseFor(1000)
                         .changeDelay(1)
-                        .typeString(
-                          " FullStack Developer <Br/>"
-                        )
-                        .typeString(
-                          "<Br/>"
-                        )
+                        .typeString(" FullStack Developer <Br/>")
+                        .typeString("<Br/>")
                         .pauseFor(1500)
                         .changeDelay(20)
-                        .typeString(
-                          "Currently based on Argentina.<br/>"
-                        )
+                        .typeString("Currently based on Argentina.<br/>")
                         .pauseFor(1000)
                         .typeString(
                           " During my boot camp, I found myself enjoying every challenge. After more than 12 years working in hotel management I decided to turn the table and change the direction of my professional life. I am a team player, analytical, very resilient and last but not less important I love coding!"
@@ -59,29 +53,33 @@ const start = () => {
                       position="bottom"
                     >
                       <div className="containers">
-                        <a href="https://www.linkedin.com/in/gonzaloreyna/">
+                        <a className="icon"
+                          href="https://www.linkedin.com/in/gonzaloreyna/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <img
-                            src="https://img.icons8.com/color/48/000000/linkedin.png"
+                            src={linked}
                             alt="linkedin"
                           />
                         </a>
-                        <a
+                        <a className="icon"
                           href="https://github.com/gonreyna85code"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <img
-                            src="https://img.icons8.com/color/48/000000/github.png"
+                            src={git}
                             alt="github"
                           />
                         </a>
-                        <a
+                        <a className="icon"
                           href="https://api.whatsapp.com/send?phone=543513078206&text=Hola%20Gonzalo!"
                           target="_blank"
                           rel="noreferrer"
                         >
                           <img
-                            src="https://img.icons8.com/color/48/000000/whatsapp.png"
+                            src={whats}
                             alt="whatsapp"
                           />
                         </a>
