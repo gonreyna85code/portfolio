@@ -1,7 +1,13 @@
 .App {
     text-align: center;
   }
-  
+  @font-face {
+    font-family: "SH Pinscher";
+    src: url("./fonts/SHPinscher-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
   .App-logo {
     height: 40vmin;
     pointer-events: none;
