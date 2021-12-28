@@ -73,7 +73,7 @@ const Profile = () => {
               </Link>
               <Popup
                 trigger={<button className="button2"> CONTACT ME </button>}
-                position="bottom"
+                position="bottom center"
               >
                 <div className="containers">
                   <a className="icon"

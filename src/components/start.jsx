@@ -50,7 +50,7 @@ const start = () => {
                     </Link>
                     <Popup
                       trigger={<button className="button"> CONTACT ME </button>}
-                      position="bottom"
+                      position="bottom center"
                     >
                       <div className="containers">
                         <a className="icon"
