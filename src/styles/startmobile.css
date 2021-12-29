@@ -8,132 +8,134 @@
   color: #33ff33;
   font-family: "SH Pinscher";
   background-size: cover;
-  
 }
 
-.mobile-wrapper{
-    display: contents;
-    padding-right: 10px;
-    
-
+.mobile-wrapper {
+  display: contents;
+  padding-right: 10px;
 }
 
-.mobile-presentation{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: nowrap;  
-    align-content: flex-start;
-
+.mobile-presentation {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: flex-start;
 }
 
-.mobile-title{
-    border: 2px solid #0b2e0b;
-    border-radius: 2px;
-    width: 59vw;
-    height: 55vh;
-    margin-right: 5px;
-    text-align: start;
-    margin-bottom: 50px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-    padding-left: 5px;
-    padding-top: 5px;
-    font-size: 140%;
-    font-family: "SH Pinscher";
-    display: inline-table;
+.mobile-title {
+  border: 2px solid #0b2e0b;
+  border-radius: 2px;
+  width: 59vw;
+  height: 55vh;
+  margin-right: 5px;
+  text-align: start;
+  margin-bottom: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 140%;
+  font-family: "SH Pinscher";
+  display: inline-table;
 }
 
-.mobile-picture{
-    border: 1.5px solid #0b2e0b;
-    width: 30vw;
-    height: 30vw;
-    margin-right: 10px;
-    margin-top:10px;    
+.mobile-picture {
+  border: 1.5px solid #0b2e0b;
+  width: 30vw;
+  height: 30vw;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-.mobile-languages{
-    border: 1.5px solid #0b2e0b;
-    width: 30vw;
-    height: 36vw;
-    margin-right: 10px;    
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 5vw;
+.mobile-languages {
+  border: 1.5px solid #0b2e0b;
+  width: 30vw;
+  height: 36vw;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 5vw;
 }
 
-.mobile-skills{
-    display: flex;
-    justify-content: center;
-    border: 1.5px solid #0b2e0b;
-    width: 30vw;
-    height: 80vw;
-    margin-right: 10px;
-    padding-top: 10px;
-    text-align: left;
-    font-size: 4.7vw;
+.mobile-skills {
+  display: flex;
+  justify-content: center;
+  border: 1.5px solid #0b2e0b;
+  width: 30vw;
+  height: 80vw;
+  margin-right: 10px;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 4.7vw;
 }
 
-.mobile-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 120%;
-    font-family: "SH Pinscher";
+.mobile-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 120%;
+  font-family: "SH Pinscher";
 }
 
-.mobile-buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 120%;
-    font-family: "SH Pinscher";
+.mobile-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 120%;
+  font-family: "SH Pinscher";
 }
 
-.mobile-button{
-    background-color: #176e17;
-    color: black;
-    border: none;
-    width: 25vw;
-    height: 25vw;
-    margin-top: 12px;
-    margin-right: 12px;
-    margin-bottom: 2px;
-    border-radius: 100px;
-    font-family: "SH Pinscher";
-    font-size: 4vh;
+.mobile-button {
+  background-color: #176e17;
+  color: black;
+  border: none;
+  width: 25vw;
+  height: 25vw;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-bottom: 2px;
+  border-radius: 100px;
+  font-family: "SH Pinscher";
+  font-size: 4vh;
 }
 
 .mobile-containers {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 100%;
-    align-items: flex-start;
-    margin-right: 30px;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+  align-items: flex-start;
+  margin-right: 30px;
+}
 
-  .mobile-img{
-    width: 45px;
-    height: 45px;
-  }
+.mobile-img {
+  width: 45px;
+  height: 45px;
+}
+
+.popup-content {
+  margin-left: 2vh;
+  margin-top: 4vw;
+  transform: translate(-50%, -50%);
+}

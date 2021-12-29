@@ -11,7 +11,6 @@
   display: table;
 }
 
-
 .box-container {
   margin: 20px;
   display: flex;
@@ -166,3 +165,8 @@
   display: none;
 }
 
+.popup-content {
+  margin-left: 2vh;
+  margin-top: 4vw;
+  transform: translate(-50%, -50%);
+}
