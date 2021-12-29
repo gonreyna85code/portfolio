@@ -15,13 +15,21 @@ const videos = [
     title: "Dogs App",
     src: "http://vimeo.com/659415660",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "The App front-end was made using React – Redux for the state management and Css to add stiles. On the back-end I used NodeJS, ExpressJS, Sequelize and a database created on Postgress. The back-end consume data from an external API and storing the data on the database.",
   },
   {
     id: 2,
-    title: "Monique",
+    title: "Travel Activity Planner",
     src: "http://www.youtube.com/watch?v=MdcxWieOSME",
-    description: "otrem ipsum sañljñsoghsdnfkghisdñofgn",
+    description:
+      "This project was built using React-Redux, Css, Node, Sequelize, Express and Postgress. This project uses minimal stiles and filtering processes managed entirely by Redux. Like my other projects every submit form is a controlled component.",
+  },
+  {
+    id: 3,
+    title: "Simple Videogames Database",
+    src: "http://www.youtube.com/watch?v=MdcxWieOSME",
+    description:
+      "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. The difference on this back-end is that it consumes data from an API-REST and in this case the data is NOT stored on the databse.",
   },
 ];
 
@@ -61,9 +69,16 @@ const Profile = () => {
                 <button
                   className="video-selector"
                   onClick={(e) => handleClick(e.target.value)}
-                  value="Monique"
+                  value="Travel Activity Planner"
                 >
-                  Monique
+                  T - A - P
+                </button>
+                <button
+                  className="video-selector"
+                  onClick={(e) => handleClick(e.target.value)}
+                  value="Simple Videogames Database"
+                >
+                  SVD
                 </button>
               </div>
             </div>
