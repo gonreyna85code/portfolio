@@ -13,7 +13,7 @@ const videos = [
   {
     id: 1,
     title: "Dogs App",
-    src: "http://vimeo.com/659415660",
+    src: "https://youtu.be/wnFpxkXkS2o",
     description:
       "The App front-end was made using React – Redux for the state management and Css to add stiles. On the back-end I used NodeJS, ExpressJS, Sequelize and a database created on Postgress. The back-end consume data from an external API and storing the data on the database.",
   },
