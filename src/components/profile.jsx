@@ -128,7 +128,6 @@ const Profile = () => {
                       .changeDelay(2)
                       .typeString(`[${video.title}] `)
                       .changeDelay(350)
-                      .typeString(".......<br/>")
                       .pauseFor(800)
                       .changeDelay(1)
                       .typeString(video.description)
@@ -212,10 +211,8 @@ const Profile = () => {
               onInit={(typewriter) => {
                 typewriter
                   .changeDelay(2)
-                  .typeString(`[${video.title}] `)
-                  .changeDelay(350)
-                  .typeString(".......<br/>")
-                  .pauseFor(800)
+                  .typeString(`[${video.title}]<br/>`)                  
+                  .pauseFor(1000)
                   .changeDelay(1)
                   .typeString(video.description)
                   .start();
