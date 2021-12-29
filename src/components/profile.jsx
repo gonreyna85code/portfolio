@@ -26,7 +26,7 @@ const videos = [
   },
   {
     id: 3,
-    title: "Simple Videogames Database",
+    title: "Simple Videogame Database",
     src: "http://www.youtube.com/watch?v=MdcxWieOSME",
     description:
       "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. The difference on this back-end is that it consumes data from an API-REST and in this case the data is NOT stored on the databse.",
@@ -164,7 +164,7 @@ const Profile = () => {
           <button
             className="mobile-video-selector"
             onClick={(e) => handleClick(e.target.value)}
-            value="Simple Videogames Database"
+            value="Simple Videogame Database"
           >
             SiViD
           </button>
