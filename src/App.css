@@ -8,6 +8,12 @@
     font-weight: 400;
     font-display: swap;
   }
+  
+  .popup-content {
+    transform: translateY(-50%, -50%);
+    
+  }
+
   .App-logo {
     height: 40vmin;
     pointer-events: none;
