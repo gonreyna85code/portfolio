@@ -20,14 +20,14 @@ const videos = [
   {
     id: 2,
     title: "Travel Activity Planner",
-    src: "http://www.youtube.com/watch?v=MdcxWieOSME",
+    src: "https://youtu.be/wnFpxkXkS2o",
     description:
       "This project was built using React-Redux, Css, Node, Sequelize, Express and Postgress. This project uses minimal stiles and filtering processes managed entirely by Redux. Like my other projects every submit form is a controlled component.",
   },
   {
     id: 3,
     title: "Simple Videogame Database",
-    src: "http://www.youtube.com/watch?v=MdcxWieOSME",
+    src: "https://youtu.be/wnFpxkXkS2o",
     description:
       "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. The difference on this back-end is that it consumes data from an API-REST and in this case the data is NOT stored on the databse.",
   },
