@@ -1,4 +1,5 @@
 import "../styles/start.css";
+import "../styles/startmobile.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
@@ -8,9 +9,10 @@ import whats from "../styles/whats.png";
 import linked from "../styles/linked.png";
 import git from "../styles/git.png";
 
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 const start = () => {
-  return (
+  return !isMobile ? (
     <div className="start">
       <div className="crt site-title">
         <div className="box-container">
@@ -53,35 +55,29 @@ const start = () => {
                       position="bottom center"
                     >
                       <div className="containers">
-                        <a className="icon"
+                        <a
+                          className="icon"
                           href="https://www.linkedin.com/in/gonzaloreyna/"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            src={linked}
-                            alt="linkedin"
-                          />
+                          <img src={linked} alt="linkedin" />
                         </a>
-                        <a className="icon"
+                        <a
+                          className="icon"
                           href="https://github.com/gonreyna85code"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            src={git}
-                            alt="github"
-                          />
+                          <img src={git} alt="github" />
                         </a>
-                        <a className="icon"
+                        <a
+                          className="icon"
                           href="https://api.whatsapp.com/send?phone=543513078206&text=Hola%20Gonzalo!"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            src={whats}
-                            alt="whatsapp"
-                          />
+                          <img src={whats} alt="whatsapp" />
                         </a>
                       </div>
                     </Popup>
@@ -148,6 +144,10 @@ const start = () => {
           </div>
         </div>
       </div>
+    </div>
+  ) : (
+    <div className="mobilestart">
+      <h2> Sorry, this page is only available on desktop computers </h2>
     </div>
   );
 };

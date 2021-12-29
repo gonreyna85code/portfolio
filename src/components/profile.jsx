@@ -7,6 +7,7 @@ import whats from "../styles/whats.png";
 import linked from "../styles/linked.png";
 import git from "../styles/git.png";
 import "../styles/profile.css";
+import "../styles/profilemobile.css";
 
 const videos = [
   {
@@ -27,6 +28,7 @@ const videos = [
 const Profile = () => {
   const [video, setVideo] = React.useState(videos[0]);
   const [description, setDescription] = React.useState(video.description);
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
   const handleClick = async (title) => {
     console.log(title);
@@ -36,14 +38,14 @@ const Profile = () => {
     setDescription(video.description);
   };
 
-  return (
+  return !isMobile ? (
     <div className="profile">
       <div className="crt site-title">
         <div className="profile-container">
           <div className="profile-container-top">
             <div className="profile-container-left-top">
               <div className="video-container">
-                <ReactPlayer width='100%' height='100%' url={video.src} />
+                <ReactPlayer width="100%" height="100%" url={video.src} />
               </div>
             </div>
             <div className="projects">
@@ -76,21 +78,24 @@ const Profile = () => {
                 position="bottom center"
               >
                 <div className="containers">
-                  <a className="icon"
+                  <a
+                    className="icon"
                     href="https://www.linkedin.com/in/gonzaloreyna/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img src={linked} alt="linkedin" />
                   </a>
-                  <a className="icon"
+                  <a
+                    className="icon"
                     href="https://github.com/gonreyna85code"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img src={git} alt="github" />
                   </a>
-                  <a className="icon"
+                  <a
+                    className="icon"
                     href="https://api.whatsapp.com/send?phone=543513078206&text=Hola%20Gonzalo!"
                     target="_blank"
                     rel="noreferrer"
@@ -116,6 +121,10 @@ const Profile = () => {
           </div>
         </div>
       </div>
+    </div>
+  ) : (
+    <div className="mobileprofile">
+      <h2> Sorry, this page is only available on desktop computers </h2>
     </div>
   );
 };
