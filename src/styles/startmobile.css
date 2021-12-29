@@ -61,9 +61,10 @@
 .mobile-languages{
     border: 1.5px solid #0b2e0b;
     width: 30vw;
-    height: 30vw;
+    height: 36vw;
     margin-right: 10px;    
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .mobile-skills{
@@ -71,8 +72,8 @@
     justify-content: center;
     border: 1.5px solid #0b2e0b;
     width: 30vw;
-    height: 75vw;
+    height: 78vw;
     margin-right: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: left;
 }
