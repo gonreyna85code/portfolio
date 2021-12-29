@@ -126,7 +126,10 @@
   flex-wrap: nowrap;
   height: 100%;
   align-items: flex-start;
-  margin-right: 30px;
+  left: 15%;
+  background-color: #092009;
+  border-radius: 10px;
+  position:relative;
 }
 
 .mobile-img {
