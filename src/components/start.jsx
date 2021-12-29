@@ -170,8 +170,55 @@ const start = () => {
                 }}
               />
             </div>
-            <div className="mobile-picture">
-              <img className="image" src={img} alt="" />
+            <div className="mobile-left-box">
+              <div className="mobile-picture">
+                <img className="image" src={img} alt="" />
+              </div>
+              <div className="mobile-languages">
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .changeDelay(20)
+                      .pauseFor(5000)
+                      .typeString("English ")
+                      .typeString("<br/>")
+                      .changeDelay(200)
+                      .typeString(" C2-PROFICIENT <br/>")
+                      .changeDelay(20)
+                      .typeString("<br/>")
+                      .pauseFor(1000)
+                      .typeString("Portuguese ")
+                      .typeString("<br/>")
+                      .changeDelay(200)
+                      .typeString(" PROFICIENT")
+                      .changeDelay(1)
+                      .start();
+                  }}
+                />
+              </div>
+              <div className="mobile-skills">
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .changeDelay(20)
+                      .pauseFor(5000)
+                      .typeString("• Agile Mindset <br/>")
+                      .typeString("• Javascript <br/>")
+                      .typeString("• React <br/>")
+                      .typeString("• Redux <br/>")
+                      .typeString("• CSS <br/>")
+                      .typeString("• HTML <br/>")
+                      .typeString("• Node JS <br/>")
+                      .typeString("• Express JS <br/>")
+                      .typeString("• MongoDB <br/>")
+                      .typeString("• Postgres <br/>")
+                      .typeString("• Mongoose <br/>")
+                      .typeString("• Sequelize <br/>")
+                      .typeString("• Scrum")
+                      .start();
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>

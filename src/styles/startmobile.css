@@ -33,7 +33,7 @@
     border: 2px solid #0b2e0b;
     border-radius: 2px;
     width: 59vw;
-    height: 30vh;
+    height: 70vh;
     margin-top: 0px;
     margin-left: 10px;
     text-align: start;
@@ -54,6 +54,25 @@
 .mobile-picture{
     border: 1.5px solid #0b2e0b;
     width: 30vw;
-    height: 23.5vh;
+    height: 30vw;
     margin-right: 10px;
+}
+
+.mobile-languages{
+    border: 1.5px solid #0b2e0b;
+    width: 30vw;
+    height: 30vw;
+    margin-right: 10px;    
+    padding-top: 10px;
+}
+
+.mobile-skills{
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #0b2e0b;
+    width: 30vw;
+    height: 75vw;
+    margin-right: 10px;
+    padding-top: 10px;
+    text-align: left;
 }
