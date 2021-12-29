@@ -42,15 +42,18 @@
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     overflow: hidden;
     padding-left: 5px;
     padding-top: 5px;
+    font-size: 160%;
+    font-family: "SH Pinscher";
+    display: inline-table;
 }
 
 .mobile-picture{
     border: 2px solid #0b2e0b;
     width: 30vw;
-    height: 16vh;
+    height: 22vh;
     margin-right: 10px;
 }
