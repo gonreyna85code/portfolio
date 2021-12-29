@@ -110,8 +110,12 @@ const Profile = () => {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(2500)
                       .changeDelay(2)
+                      .typeString(`[${video.title}] `)
+                      .changeDelay(350)
+                      .typeString(".......<br/>")
+                      .pauseFor(800)
+                      .changeDelay(1)
                       .typeString(video.description)
                       .start();
                   }}
