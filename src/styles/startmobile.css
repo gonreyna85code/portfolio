@@ -61,10 +61,11 @@
 .mobile-languages{
     border: 1.5px solid #0b2e0b;
     width: 30vw;
-    height: 37vw;
+    height: 36vw;
     margin-right: 10px;    
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 5vw;
 }
 
 .mobile-skills{
