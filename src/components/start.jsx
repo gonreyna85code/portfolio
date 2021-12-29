@@ -147,7 +147,35 @@ const start = () => {
     </div>
   ) : (
     <div className="mobilestart">
-      <h2> Sorry, this page is only available on desktop computers </h2>
+      <div className="mobile-wrapper">
+        <div className="mobile-presentation">          
+          <div className="mobile-title">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .changeDelay(20)
+                  .pauseFor(1500)
+                  .typeString("> GONZALO REYNA ")
+                  .pauseFor(1000)
+                  .changeDelay(200)
+                  .typeString(" ----- ")
+                  .pauseFor(1000)
+                  .changeDelay(1)
+                  .typeString(" FullStack Developer <Br/>")
+                  .pauseFor(1500)
+                  .changeDelay(20)
+                  .typeString("Currently based on Argentina.<br/>")
+                  .pauseFor(1000)
+                  .changeDelay(1)
+                  .start();
+              }}
+            />
+          </div>
+          <div className="mobile-picture">
+            <img className="image" src={img} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
