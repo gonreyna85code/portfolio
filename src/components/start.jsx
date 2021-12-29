@@ -149,6 +149,7 @@ const start = () => {
     <div className="mobilestart">
       <div className="crt site-title">
         <div className="mobile-wrapper">
+          <div className="mobile-box">
           <div className="mobile-presentation">
             <div className="mobile-title">
               <Typewriter
@@ -170,6 +171,45 @@ const start = () => {
                 }}
               />
             </div>
+            <div className="mobile-buttons">
+              <Link to="/profile">
+                <button className="mobile-button">PROJECTS</button>
+              </Link>
+              <Popup
+                trigger={<button className="mobile-button"> CONTACT ME </button>}
+                position="top left"
+              >
+                <div className="mobile-containers">
+                <a
+                          className="icon"
+                          href="https://www.linkedin.com/in/gonzaloreyna/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img className="mobile-img" src={linked} alt="linkedin" />
+                        </a>
+                        <a
+                          className="icon"
+                          href="https://github.com/gonreyna85code"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img className="mobile-img" src={git} alt="github" />
+                        </a>
+                        <a
+                          className="icon"
+                          href="https://api.whatsapp.com/send?phone=543513078206&text=Hola%20Gonzalo!"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img className="mobile-img" src={whats} alt="whatsapp" />
+                        </a>
+                </div>
+              </Popup>
+            </div>
+          </div>
+
+                
             <div className="mobile-left-box">
               <div className="mobile-picture">
                 <img className="image" src={img} alt="" />
