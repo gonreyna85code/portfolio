@@ -176,7 +176,7 @@ const Profile = () => {
             </Link>
             <Popup
               trigger={<button className="mobile-button"> CONTACT</button>}
-              position="right"
+              position="top right"
             >
               <div className="containers-mobile-profile">
                 <a
