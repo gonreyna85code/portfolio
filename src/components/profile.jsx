@@ -178,7 +178,7 @@ const Profile = () => {
             trigger={<button className="mobile-button"> CONTACT</button>}
             position="right"
           >
-            <div className="containers">
+            <div className="containers-mobile-profile">
               <a
                 className="icon"
                 href="https://www.linkedin.com/in/gonzaloreyna/"

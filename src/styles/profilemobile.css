@@ -50,6 +50,7 @@
   border: 3px solid #176e17;
   border-radius: 3px;
   font-family: "SH Pinscher";
+  color: #33ff33;
   background-color: #176e17;
   height: 45px;
   width: 75px;
@@ -88,4 +89,12 @@
   padding-top: 4px;
   padding-right: 1px;
   font-size: 18.5px;
+}
+
+.containers-mobile-profile{
+    height: 80px;
+    width: 1px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 110px;
 }
