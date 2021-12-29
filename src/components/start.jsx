@@ -147,29 +147,32 @@ const start = () => {
     </div>
   ) : (
     <div className="mobilestart">
-      <div className="mobile-wrapper">
-        <div className="mobile-presentation">          
-          <div className="mobile-title">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .changeDelay(20)
-                  .pauseFor(1500)
-                  .typeString("GONZALO REYNA ")                
-                  .pauseFor(1000)
-                  .changeDelay(10)
-                  .typeString(" FullStack Developer <Br/>")
-                  .pauseFor(1500)
-                  .changeDelay(15) 
-                  .typeString("Currently based on Argentina.<br/>")
-                  .pauseFor(1000)
-                  .changeDelay(1)
-                  .start();
-              }}
-            />
-          </div>
-          <div className="mobile-picture">
-            <img className="image" src={img} alt="" />
+      <div className="crt site-title">
+        <div className="mobile-wrapper">
+          <div className="mobile-presentation">
+            <div className="mobile-title">
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                    .changeDelay(20)
+                    .pauseFor(1500)
+                    .typeString("GONZALO REYNA ")
+                    .pauseFor(1000)
+                    .changeDelay(10)
+                    .typeString(" FullStack Developer <Br/>")
+                    .typeString("<Br/>")
+                    .pauseFor(1500)
+                    .changeDelay(15)
+                    .typeString("Currently based on Argentina.<br/>")
+                    .pauseFor(1000)
+                    .changeDelay(1)
+                    .start();
+                }}
+              />
+            </div>
+            <div className="mobile-picture">
+              <img className="image" src={img} alt="" />
+            </div>
           </div>
         </div>
       </div>

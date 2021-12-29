@@ -46,7 +46,7 @@
     overflow: hidden;
     padding-left: 5px;
     padding-top: 5px;
-    font-size: 160%;
+    font-size: 140%;
     font-family: "SH Pinscher";
     display: inline-table;
 }
@@ -54,6 +54,6 @@
 .mobile-picture{
     border: 2px solid #0b2e0b;
     width: 30vw;
-    height: 22vh;
+    height: 23.5vh;
     margin-right: 10px;
 }
