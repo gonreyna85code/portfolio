@@ -22,7 +22,7 @@ const start = () => {
                     onInit={(typewriter) => {
                       typewriter
                         .changeDelay(20)
-                        .pauseFor(2000)
+                        .pauseFor(1500)
                         .typeString("> GONZALO REYNA ")
                         .pauseFor(1000)
                         .changeDelay(200)

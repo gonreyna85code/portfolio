@@ -43,7 +43,7 @@ const Profile = () => {
           <div className="profile-container-top">
             <div className="profile-container-left-top">
               <div className="video-container">
-                <ReactPlayer url={video.src} />
+                <ReactPlayer width='100%' height='100%' url={video.src} />
               </div>
             </div>
             <div className="projects">
