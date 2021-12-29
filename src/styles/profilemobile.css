@@ -92,15 +92,14 @@
   margin-right: 2px;
 }
 
-.containers-mobile-profile{
-    background-color: #092009;
-    border-radius: 10px;
-    height: 245px;
-    width: 80px;
-    display: flex;
-    flex-direction: column;
-    left:180%;
-    top: 220px;
-    position: relative;
-    
+.containers-mobile-profile {
+  background-color: #092009;
+  border-radius: 10px;
+  height: 245px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  left: 180%;
+  top: 220px;
+  position: relative;
 }
