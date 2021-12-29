@@ -173,10 +173,10 @@ const start = () => {
             </div>
             <div className="mobile-buttons">
               <Link to="/profile">
-                <button className="mobile-button">PROJECTS</button>
+                <button className="mobile-button">PROJECTS </button>
               </Link>
               <Popup
-                trigger={<button className="mobile-button"> CONTACT ME </button>}
+                trigger={<button className="mobile-button">CONTACT</button>}
                 position="top left"
               >
                 <div className="mobile-containers">
