@@ -143,7 +143,32 @@ const Profile = () => {
     </div>
   ) : (
     <div className="mobileprofile">
-      <h2> Sorry, this page is only available on desktop computers </h2>
+      <div className="mobile-video">
+        <ReactPlayer width="100%" height="100%" url={video.src} />
+      </div>
+      <div className="mobile-projects">
+        <button
+          className="mobile-video-selector"
+          onClick={(e) => handleClick(e.target.value)}
+          value="Dogs App"
+        >
+          Dogs App
+        </button>
+        <button
+          className="mobile-video-selector"
+          onClick={(e) => handleClick(e.target.value)}
+          value="Travel Activity Planner"
+        >
+          T - A - P
+        </button>
+        <button
+          className="mobile-video-selector"
+          onClick={(e) => handleClick(e.target.value)}
+          value="Simple Videogames Database"
+        >
+          SVD
+        </button>
+      </div>
     </div>
   );
 };
