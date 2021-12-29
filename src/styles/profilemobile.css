@@ -11,7 +11,7 @@
 }
 
 .mobile-video {
-  border: 2px solid #0b2e0b;
+  border: 3px solid #0b2e0b;
   border-radius: 2px;
   width: 95vw;
   height: 32vh;
@@ -54,5 +54,37 @@
   height: 45px;
   width: 75px;
   font-size: 16px;
-  
+}
+
+.mobile-profile-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-profile-buttons {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.mobile-profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #176e17;
+  border-radius: 3px;
+  width: 220px;
+  height: 280px;
+  text-align: start;
+  padding-left: 4px;
+  padding-top: 4px;
+  padding-right: 1px;
+  font-size: 18.5px;
 }

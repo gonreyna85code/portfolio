@@ -169,6 +169,61 @@ const Profile = () => {
           SVD
         </button>
       </div>
+      <div className="mobile-profile-footer">
+        <div className="mobile-profile-buttons">
+          <Link to="/">
+            <button className="mobile-button">HOME </button>
+          </Link>
+          <Popup
+            trigger={<button className="mobile-button"> CONTACT</button>}
+            position="right"
+          >
+            <div className="containers">
+              <a
+                className="icon"
+                href="https://www.linkedin.com/in/gonzaloreyna/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linked} alt="linkedin" />
+              </a>
+              <a
+                className="icon"
+                href="https://github.com/gonreyna85code"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={git} alt="github" />
+              </a>
+              <a
+                className="icon"
+                href="https://api.whatsapp.com/send?phone=543513078206&text=Hola%20Gonzalo!"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={whats} alt="whatsapp" />
+              </a>
+            </div>
+          </Popup>
+        </div>
+        <div className="mobile-profile-info">
+          {video.description === description ? (
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .changeDelay(2)
+                  .typeString(`[${video.title}] `)
+                  .changeDelay(350)
+                  .typeString(".......<br/>")
+                  .pauseFor(800)
+                  .changeDelay(1)
+                  .typeString(video.description)
+                  .start();
+              }}
+            />
+          ) : null}
+        </div>
+      </div>
     </div>
   );
 };
