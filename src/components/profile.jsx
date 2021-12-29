@@ -142,83 +142,85 @@ const Profile = () => {
     </div>
   ) : (
     <div className="mobileprofile">
-      <div className="mobile-video">
-        <ReactPlayer width="100%" height="100%" url={video.src} />
-      </div>
-      <div className="mobile-projects">
-        <button
-          className="mobile-video-selector"
-          onClick={(e) => handleClick(e.target.value)}
-          value="Dogs App"
-        >
-          Dogs App
-        </button>
-        <button
-          className="mobile-video-selector"
-          onClick={(e) => handleClick(e.target.value)}
-          value="Travel Activity Planner"
-        >
-          T - A - P
-        </button>
-        <button
-          className="mobile-video-selector"
-          onClick={(e) => handleClick(e.target.value)}
-          value="Simple Videogames Database"
-        >
-          SVD
-        </button>
-      </div>
-      <div className="mobile-profile-footer">
-        <div className="mobile-profile-buttons">
-          <Link to="/">
-            <button className="mobile-button">HOME </button>
-          </Link>
-          <Popup
-            trigger={<button className="mobile-button"> CONTACT</button>}
-            position="right"
-          >
-            <div className="containers-mobile-profile">
-              <a
-                className="icon"
-                href="https://www.linkedin.com/in/gonzaloreyna/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={linked} alt="linkedin" />
-              </a>
-              <a
-                className="icon"
-                href="https://github.com/gonreyna85code"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={git} alt="github" />
-              </a>
-              <a
-                className="icon"
-                href="https://api.whatsapp.com/send?phone=543513078206&text=Hola%20Gonzalo!"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={whats} alt="whatsapp" />
-              </a>
-            </div>
-          </Popup>
+      <div className="crt site-title">
+        <div className="mobile-video">
+          <ReactPlayer width="100%" height="100%" url={video.src} />
         </div>
-        <div className="mobile-profile-info">
-          {video.description === description ? (
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .changeDelay(2)
-                  .typeString(`[${video.title}]<br/>`)                  
-                  .pauseFor(1000)
-                  .changeDelay(1)
-                  .typeString(video.description)
-                  .start();
-              }}
-            />
-          ) : null}
+        <div className="mobile-projects">
+          <button
+            className="mobile-video-selector"
+            onClick={(e) => handleClick(e.target.value)}
+            value="Dogs App"
+          >
+            Dogs App
+          </button>
+          <button
+            className="mobile-video-selector"
+            onClick={(e) => handleClick(e.target.value)}
+            value="Travel Activity Planner"
+          >
+            T - A - P
+          </button>
+          <button
+            className="mobile-video-selector"
+            onClick={(e) => handleClick(e.target.value)}
+            value="Simple Videogames Database"
+          >
+            SVD
+          </button>
+        </div>
+        <div className="mobile-profile-footer">
+          <div className="mobile-profile-buttons">
+            <Link to="/">
+              <button className="mobile-button">HOME </button>
+            </Link>
+            <Popup
+              trigger={<button className="mobile-button"> CONTACT</button>}
+              position="right"
+            >
+              <div className="containers-mobile-profile">
+                <a
+                  className="icon"
+                  href="https://www.linkedin.com/in/gonzaloreyna/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={linked} alt="linkedin" />
+                </a>
+                <a
+                  className="icon"
+                  href="https://github.com/gonreyna85code"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={git} alt="github" />
+                </a>
+                <a
+                  className="icon"
+                  href="https://api.whatsapp.com/send?phone=543513078206&text=Hola%20Gonzalo!"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={whats} alt="whatsapp" />
+                </a>
+              </div>
+            </Popup>
+          </div>
+          <div className="mobile-profile-info">
+            {video.description === description ? (
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                    .changeDelay(2)
+                    .typeString(`[${video.title}]<br/>`)
+                    .pauseFor(1000)
+                    .changeDelay(1)
+                    .typeString(video.description)
+                    .start();
+                }}
+              />
+            ) : null}
+          </div>
         </div>
       </div>
     </div>
