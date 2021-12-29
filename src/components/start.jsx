@@ -179,17 +179,17 @@ const start = () => {
                   onInit={(typewriter) => {
                     typewriter
                       .changeDelay(20)
-                      .pauseFor(5000)
-                      .typeString("English ")
+                      .pauseFor(10000)
+                      .typeString("ENGLISH ")
                       .typeString("<br/>")
-                      .changeDelay(200)
+                      .changeDelay(100)
                       .typeString(" C2-PROFICIENT <br/>")
                       .changeDelay(20)
                       .typeString("<br/>")
-                      .pauseFor(1000)
-                      .typeString("Portuguese ")
+                      .pauseFor(500)
+                      .typeString("PORTUGUESE ")
                       .typeString("<br/>")
-                      .changeDelay(200)
+                      .changeDelay(100)
                       .typeString(" PROFICIENT")
                       .changeDelay(1)
                       .start();
@@ -201,7 +201,7 @@ const start = () => {
                   onInit={(typewriter) => {
                     typewriter
                       .changeDelay(20)
-                      .pauseFor(5000)
+                      .pauseFor(15000)
                       .typeString("• Agile Mindset <br/>")
                       .typeString("• Javascript <br/>")
                       .typeString("• React <br/>")
