@@ -20,7 +20,7 @@ const videos = [
   {
     id: 2,
     title: "Travel Activity Planner",
-    src: "https://youtu.be/wnFpxkXkS2o",
+    src: "https://youtu.be/B3wZKH1T-jQ",
     description:
       "This project was built using React-Redux, Css, Node, Sequelize, Express and Postgress. This project uses minimal stiles and filtering processes managed entirely by Redux. Like my other projects every submit form is a controlled component.",
   },
