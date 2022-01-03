@@ -27,7 +27,7 @@ const videos = [
   {
     id: 3,
     title: "Simple Videogame Database",
-    src: "https://youtu.be/wnFpxkXkS2o",
+    src: "https://youtu.be/4n5TwToe1k4",
     description:
       "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. This back-end consumes data from an API-REST.",
   },
