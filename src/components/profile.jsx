@@ -15,21 +15,21 @@ const videos = [
     title: "Dogs App",
     src: "https://youtu.be/wnFpxkXkS2o",
     description:
-      "The App front-end was made using React – Redux for the state management and Css to add stiles. On the back-end I used NodeJS, ExpressJS, Sequelize and a database created on Postgress. The back-end consume data from an external API and storing the data on the database.",
+      "The App front-end was made using React – Redux for the state management and Css to add the styles. On the back-end I used NodeJS, ExpressJS, Sequelize and a database created on Postgress. The back-end consume data from an external API and stores the data.",
   },
   {
     id: 2,
     title: "Travel Activity Planner",
     src: "https://youtu.be/B3wZKH1T-jQ",
     description:
-      "This project was built using React-Redux, Css, Node, Sequelize, Express and Postgress. This project uses minimal stiles and filtering processes managed entirely by Redux. Like my other projects every submit form is a controlled component.",
+      "This project was built using React-Redux, pure Css, Node, Sequelize, Express and Postgress. This project uses minimal stiles and filtering processes managed entirely by Redux.",
   },
   {
     id: 3,
     title: "Simple Videogame Database",
     src: "https://youtu.be/wnFpxkXkS2o",
     description:
-      "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. The difference on this back-end is that it consumes data from an API-REST and in this case the data is NOT stored on the databse.",
+      "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. This back-end consumes data from an API-REST NOT.",
   },
 ];
 
