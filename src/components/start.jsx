@@ -166,6 +166,7 @@ const start = () => {
                     .changeDelay(15)
                     .typeString("Currently based on Argentina.<br/>")
                     .pauseFor(1000)
+                    .typeString("Always looking for an oportunity to expand my knowledge and learn new skills. I am a Team Player and im always motivated to face new challenges!")
                     .changeDelay(1)
                     .start();
                 }}
@@ -207,9 +208,7 @@ const start = () => {
                 </div>
               </Popup>
             </div>
-          </div>
-
-                
+          </div>                
             <div className="mobile-left-box">
               <div className="mobile-picture">
                 <img className="image" src={img} alt="" />
