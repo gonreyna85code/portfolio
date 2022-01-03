@@ -38,7 +38,7 @@ const start = () => {
                         .typeString("Currently based on Argentina.<br/>")
                         .pauseFor(1000)
                         .typeString(
-                          " Always looking for an oportunity to expand my knowledge and learn new skills. I am a Team Player and im always motivated to face new challenges! <br/> I'm a fast learner wanting to add new technologies to mi stack"
+                          " Always looking for an oportunity to expand my knowledge and learn new skills. I am a Team Player and im always motivated to face new challenges! <br/> I'm a fast learner wanting to add new technologies to mi stack, my main language is JavaScript but if required i'll be grate to add a new language!"
                         )
                         .changeDelay(1)
                         .start();
