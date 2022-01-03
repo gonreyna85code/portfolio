@@ -161,6 +161,13 @@ const Profile = () => {
           <ReactPlayer width="100%" height="100%" url={video.src} />
         </div>
         <div className="mobile-projects">
+        <button
+            className="mobile-video-selector"
+            onClick={(e) => handleClick(e.target.value)}
+            value="Eventy"
+          >
+            Eventy
+          </button>
           <button
             className="mobile-video-selector"
             onClick={(e) => handleClick(e.target.value)}
