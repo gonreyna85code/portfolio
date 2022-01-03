@@ -78,7 +78,7 @@ const Profile = () => {
                   onClick={(e) => handleClick(e.target.value)}
                   value="Simple Videogames Database"
                 >
-                  SVD
+                  SiViD
                 </button>
               </div>
             </div>
