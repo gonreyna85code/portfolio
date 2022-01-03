@@ -31,6 +31,13 @@ const videos = [
     description:
       "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. This back-end consumes data from an API-REST.",
   },
+  {
+    id: 4,
+    title: "Eventy",
+    src: "https://youtu.be/4n5TwToe1k4",
+    description:
+      "This App was created using React – Redux and Css on its front, the back-end was developed using Node, Express, Sequelize and Postgress. This back-end consumes data from an API-REST.",
+  }
 ];
 
 const Profile = () => {
@@ -59,6 +66,13 @@ const Profile = () => {
             <div className="projects">
               PROJECTS
               <div className="profile-container-right-top">
+              <button
+                  className="video-selector"
+                  onClick={(e) => handleClick(e.target.value)}
+                  value="Eventy"
+                >
+                  Eventy
+                </button>
                 <button
                   className="video-selector"
                   onClick={(e) => handleClick(e.target.value)}
