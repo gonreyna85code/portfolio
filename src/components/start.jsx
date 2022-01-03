@@ -38,7 +38,7 @@ const start = () => {
                         .typeString("Currently based on Argentina.<br/>")
                         .pauseFor(1000)
                         .typeString(
-                          " During my boot camp, I found myself enjoying every challenge. After more than 12 years working in hotel management I decided to turn the table and change the direction of my professional life. I am a team player, analytical, very resilient and last but not less important I love coding!"
+                          " Always looking for an oportunity to expand my knowledge and learn new skills. I am a Team Player and im always motivated to face new challenges! <br/> I'm a fast learner wanting to add new technologies to mi stack"
                         )
                         .changeDelay(1)
                         .start();
