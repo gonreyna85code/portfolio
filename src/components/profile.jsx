@@ -36,7 +36,7 @@ const videos = [
     title: "Eventy",
     src: "https://youtu.be/4n5TwToe1k4",
     description:
-      "Eventy is a social network based on Social or Sports events that uses a Front-End created with React-Redux and Css Modules. The project Back-End uses Express, Passport, MongoDB, Mongoose, MercadoPago SDK, Google Maps API",
+      "Eventy is a social network based on Social or Sports events that uses a Front-End created with React-Redux and Css Modules. The project Back-End uses Express, Passport, MongoDB, Mongoose, MercadoPago SDK, Google Maps API.",
   }
 ];
 
