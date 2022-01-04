@@ -34,14 +34,14 @@ const videos = [
   {
     id: 4,
     title: "Eventy",
-    src: "https://youtu.be/4n5TwToe1k4",
+    src: "https://youtu.be/TmZxLqG9IsY",
     description:
       "Eventy is a social network based on Social or Sports events that uses a Front-End created with React-Redux and Css Modules. The project Back-End uses Express, Passport, MongoDB, Mongoose, MercadoPago SDK, Google Maps API.",
   }
 ];
 
 const Profile = () => {
-  const [video, setVideo] = React.useState(videos[0]);
+  const [video, setVideo] = React.useState(videos[3]);
   const [description, setDescription] = React.useState(video.description);
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
